@@ -78,7 +78,6 @@ p {
 .brand h1{
     font-size: 3rem;
     color: white;
-    /* text-transform: uppercase; */
 }
 
 .brand h1 span{
@@ -272,6 +271,10 @@ h2 span{
     background-position: top center;
     position: relative;
     z-index: 1;
+}
+
+#hero .cta{
+    text-transform: capitalize;
 }
 
 #hero::after {
@@ -679,6 +682,24 @@ h2 span{
 
 #footer{
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .brand h1{
+    color: crimson;
+    transition: 0.3s ease;
+}
+
+#footer .brand h1 span{
+    color: white;
+    transition: 0.3s ease;
+}
+
+#footer .brand h1:hover{
+    color: white;
+}
+
+#footer .brand h1:hover span{
+    color: crimson;
 }
 
 #footer .footer{
