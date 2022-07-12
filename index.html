@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="index.css">
         <title>clevercoderjoy</title>
     </head>
@@ -13,20 +14,24 @@
 
         <!-- header section starts -->
 
-        <section id="header">
+        <section id="header" data-aos="fade-down">
             <div class="header container">
                 <div class="nav-bar">
                     <div class="brand">
-                        <a href="#hero"><h1>clevercoder<span>joy</span></h1></a>
+                        <a href="#hero">
+                            <h1>clevercoder<span>joy</span></h1>
+                        </a>
                     </div>
                     <div class="nav-list">
-                        <div class="hamburger"><div class="bar"></div></div>
+                        <div class="hamburger">
+                            <div class="bar"></div>
+                        </div>
                         <ul>
                             <li><a href="#hero" data-after="HOME">Home</a></li>
-                            <li><a href="#services"  data-after="SKILLS">Skills</a></li>
-                            <li><a href="#projects"  data-after="PROJECTS">Projects</a></li>
-                            <li><a href="#about"  data-after="ABOUT">About</a></li>
-                            <li><a href="#contact"  data-after="CONTACT">Contact</a></li>
+                            <li><a href="#services" data-after="SKILLS">Skills</a></li>
+                            <li><a href="#projects" data-after="PROJECTS">Projects</a></li>
+                            <li><a href="#about" data-after="ABOUT">About</a></li>
+                            <li><a href="#contact" data-after="CONTACT">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -37,13 +42,14 @@
 
         <!-- hero section starts -->
 
-        <section id="hero">
+        <section id="hero"  data-aos="fade-up">
             <div class="hero container">
                 <div>
                     <h1>Hello,<span></span></h1>
                     <h1>My Name is<span></span></h1>
                     <h1>JOY...<span></span></h1>
-                    <a href="https://clevercoderjoy.hashnode.dev/" type="button" target="_blank" class="cta">I Write Blogs</a>
+                    <a href="https://clevercoderjoy.hashnode.dev/" type="button" target="_blank" class="cta">I Write
+                        Blogs</a>
                 </div>
             </div>
         </section>
@@ -52,35 +58,35 @@
 
         <!-- services section starts -->
 
-        <section id="services">
+        <section id="services"  data-aos="fade-up">
             <div class="services container">
                 <div class="service-top">
                     <h1 class="section-title">SK<span>IL</span>LS</h1>
                     <p>Below are the skills in which I am well versed with.</p>
                 </div>
                 <div class="service-bottom">
-                    <div class="service-item">
+                    <div class="service-item"   data-aos="fade-right">
                         <div class="icon">
                             <img src="/img/icons8-developer.gif" alt="languages">
                         </div>
                         <h2>Languages</h2>
                         <p>Bash, Java, Python, HTML, JavaScript</p>
                     </div>
-                    <div class="service-item">
+                    <div class="service-item"  data-aos="fade-right">
                         <div class="icon">
                             <img src="/img/icons8-react.gif" alt="languages">
                         </div>
                         <h2>Frontend</h2>
                         <p>CSS, Bootstrap, TailwindCSS, React.js</p>
                     </div>
-                    <div class="service-item">
+                    <div class="service-item"  data-aos="fade-left">
                         <div class="icon">
                             <img src="/img/icons8-python.gif" alt="languages">
                         </div>
                         <h2>Backend</h2>
                         <p>SQL, Firebase, MongoDB, REST APIs, Node.js</p>
                     </div>
-                    <div class="service-item">
+                    <div class="service-item"   data-aos="fade-left">
                         <div class="icon">
                             <img src="/img/icons8-robot.gif" alt="languages">
                         </div>
@@ -95,13 +101,13 @@
 
         <!-- projects section starts -->
 
-        <section id="projects">
+        <section id="projects"   data-aos="fade-up">
             <div class="projects container">
                 <div class="projects-header">
                     <h1 class="section-title">Recent <span>Projects</span></h1>
                 </div>
                 <div class="all-projects">
-                    <div class="project-item">
+                    <div class="project-item"  data-aos="fade-right">
                         <div class="project-info">
                             <h1>Amazon Clone 2.0</h1>
                             <h2>A redesigned amazon clone web app</h2>
@@ -118,7 +124,7 @@
                             <img src="/img/amazon.jpg" alt="">
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item"  data-aos="fade-left">
                         <div class="project-info">
                             <h1>Tesla Clone</h1>
                             <h2>A tesla landing page</h2>
@@ -135,7 +141,7 @@
                             <img src="/img/tesla.jpg" alt="">
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item"  data-aos="fade-right">
                         <div class="project-info">
                             <h1>Guess The Number Game</h1>
                             <h2>A number guessing game.</h2>
@@ -152,7 +158,7 @@
                             <img src="/img/numberGuessingGame.jpg" alt="">
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item"  data-aos="fade-left">
                         <div class="project-info">
                             <h1>Yoda Translator</h1>
                             <h2>An API based english to yoda language translator app.</h2>
@@ -169,7 +175,7 @@
                             <img src="/img/yoda.jpg" alt="">
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item"  data-aos="fade-right">
                         <div class="project-info">
                             <h1>Tik-Tak-Toe</h1>
                             <h2>A CLI based tik-tak-toe game.</h2>
@@ -195,14 +201,14 @@
 
         <!-- about section starts -->
 
-        <div id="about">
+        <div id="about"  data-aos="fade-up">
             <div class="about container">
-                <div class="col-left">
+                <div class="col-left"   data-aos="fade-right">
                     <div class="about-img">
                         <img src="/img/4.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-right">
+                <div class="col-right"  data-aos="fade-left">
                     <h1 class="section-title">
                         About <span>Me</span>
                     </h1>
@@ -218,13 +224,13 @@
 
         <!-- contact section starts -->
 
-        <div id="contact">
+        <div id="contact"  data-aos="fade-up">
             <div class="contact container">
                 <div>
                     <h1 class="section-title">Contact <span>Info</span></h1>
                 </div>
                 <div class="contact-items">
-                    <div class="contact-item">
+                    <div class="contact-item"  data-aos="fade-right">
                         <div class="icon">
                             <img src="/img/phone.gif" alt="">
                         </div>
@@ -233,7 +239,7 @@
                             <h2><a href="tel:9455869211" target="_blank">+919455869211</a></h2>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item"  data-aos="fade-up">
                         <div class="icon">
                             <img src="/img/mail.gif" alt="">
                         </div>
@@ -243,7 +249,7 @@
                                     target="_blank">clevercoderjoy@gmail.com</a></h2>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item"  data-aos="fade-left">
                         <div class="icon">
                             <img src="/img/online.gif" alt="">
                         </div>
@@ -261,14 +267,15 @@
         <!-- footer section starts -->
 
         <section id="footer">
-            <div class="footer container">
+            <div class="footer container" data-aos="fade-up">
                 <div class="brand">
                     <h1>clevercoder<span>joy</span></h1>
                 </div>
                 <h2>A call center employee turned <span>S</span>oftware <span>D</span>eveloper</h2>
                 <div class="social-icon">
                     <div class="social-item">
-                        <a href="https://clevercoderjoy.bio.link/" target="_blank"><img src="/img/connect.jpg" alt=""></a>
+                        <a href="https://clevercoderjoy.bio.link/" target="_blank"><img src="/img/connect.jpg"
+                                alt=""></a>
                     </div>
                 </div>
                 <p>&copy; 2022 clevercoderjoy</p>
@@ -276,6 +283,10 @@
         </section>
 
         <!-- footer section ends -->
+
+        <!-- aos script starts -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <!-- aos script ends -->
         <script src="./index.js"></script>
     </body>
 
